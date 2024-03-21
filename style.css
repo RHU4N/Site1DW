@@ -10,7 +10,6 @@ body {
     background-color: rgb(26, 25, 25);
     text-align: center;
     width: 100%;
-    padding: 20px; /* Adicione um preenchimento para melhor visualização */
 }
 
 h1 {
@@ -28,7 +27,7 @@ em {
 .footer {
     background-color: rgb(26, 25, 25);
     width: 100%;
-    height: 115px; /* Altura do footer */
+    height: 100px; /* Altura do footer */
     color: white;
     text-align: center;
 }

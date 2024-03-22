@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
+    <title>Cadastro - Site de Anime</title>
 </head>
 <body>
-    <h1>Cadastro</h1>
+    <h2>Cadastro - Site de Anime</h2>
+    <form action="cadastro.php" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required><br><br>
+        
+        <label for="data_nascimento">Data de Nascimento:</label><br>
+        <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+        
+        <label for="genero_favorito">Gênero Favorito:</label><br>
+        <select id="genero_favorito" name="genero_favorito">
+            <option value="acao">Ação</option>
+            <option value="aventura">Aventura</option>
+            <option value="comedia">Comédia</option>
+            <option value="drama">Drama</option>
+            <option value="fantasia">Fantasia</option>
+            <option value="ficcao">Ficção Científica</option>
+            <option value="terror">Terror</option>
+        </select><br><br>
+        
+        <input type="submit" value="Cadastrar">
+    </form>
 </body>
 </html>

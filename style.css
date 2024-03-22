@@ -63,3 +63,16 @@ a {
     text-align: center;
 }
 
+.footer-info {
+    width: 100%; /* Largura das seções de informações e links */
+    margin-bottom: 20px; /* Espaçamento inferior entre as seções */
+}
+
+.footer-info h3 {
+    margin-top: 0; /* Remove a margem superior padrão dos títulos */
+}
+
+
+.footer-copyright {
+    text-align: center; /* Alinha o texto de direitos autorais ao centro */
+}

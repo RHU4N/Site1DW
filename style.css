@@ -65,14 +65,16 @@ a {
 
 .footer-info {
     width: 100%; /* Largura das seções de informações e links */
-    margin-bottom: 20px; /* Espaçamento inferior entre as seções */
+    background-color:rgb(26, 25, 25) ;
 }
 
-.footer-info h3 {
+.footer-info h3,p {
     margin-top: 0; /* Remove a margem superior padrão dos títulos */
+    margin-bottom: 5px;
 }
 
 
 .footer-copyright {
     text-align: center; /* Alinha o texto de direitos autorais ao centro */
+    background-color:rgb(26, 25, 25) ;
 }
